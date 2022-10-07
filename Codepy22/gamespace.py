@@ -52,7 +52,7 @@ missiles = []
 for _ in range(3):
     missile = Game()
     missile.color("white")
-    missile.shape("circle")
+    missile.shape("classic")
     missile.speed = 1
     missile.state = "ready"
     missile.hideturtle()
@@ -71,7 +71,7 @@ Rock = []
 for _ in range(5):   
     asteroids = Game()
     asteroids.color("red")
-    asteroids.shape("arrow")
+    asteroids.shape("turtle")
 
     asteroids.speed  = random.randint(2, 3)/50
     asteroids.goto(0, 0)
